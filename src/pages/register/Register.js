@@ -21,7 +21,7 @@ const Register = () => {
 
             </form>
             <button className="registerRegisterButton">
-                <Link to="/login">Login
+                <Link to="/login" className="link">Login
                 </Link>
 
             </button>

@@ -14,7 +14,7 @@ const TopBar = () => {
                 <ul className="topList">
                     <li className="topListItem">
 
-                        <Link to="/">HOME</Link>
+                        <Link to="/" className="link">HOME</Link>
 
                     </li>
                     <li className="topListItem"> <Link className="link" to="/">ABOUT</Link></li>
@@ -27,8 +27,8 @@ const TopBar = () => {
                 {
                     user ? (<img src="http://www.rishishwar.in/images/team/sanjeev.jpg" className="topImg" />) : (
                         <ul className="topList">
-                            <li className="topListItem"><Link to="/login" className="link">Login</Link></li>
-                            <li className="topListItem"><Link to="/register" className="link">Register</Link></li>
+                            <li className="topListItem"><Link to="/login" className="link">LOGIN</Link></li>
+                            <li className="topListItem"><Link to="/register" className="link">REGISTER</Link></li>
                         </ul>
 
                     )
